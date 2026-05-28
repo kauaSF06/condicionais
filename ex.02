@@ -1,0 +1,11 @@
+let num1 = Number(prompt("digite um numero"))
+if(num1<0 ){
+    alert("o numero e negativo")
+} 
+if else(num1 == 0){
+    alert("o numero e zero")
+}
+
+else{
+    alert("o numero e positivo")
+}
