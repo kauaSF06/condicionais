@@ -1,0 +1,30 @@
+let num1 = Number(prompt("digite um numero"))
+let num2 = Number(prompt("digite o segundo numero"))
+let pergunta = Number(prompt("1-Multiplicaçao \n 2-Subtração \n 3- Adição \n 4-Divisão"))
+
+switch(pergunta){
+    case 1:
+         
+         alert(`o resultado e ${num1 * num2}`);
+    break
+
+    case 2:
+        
+        alert(`o resultado e ${num1 - num2}`);
+
+    break
+    case 3:
+        
+        alert(`o resultado e ${num1 + num2}`);
+
+    break
+    case 4:
+        
+        alert(`o resultado e ${num1 / num2}`);
+
+    break
+
+    default:
+        alert("number is invalid, try again");
+    break
+}
