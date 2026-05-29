@@ -1,0 +1,16 @@
+let  vertice1 = Number(prompt("digite o valor do lado do trinagulo"))
+let  vertice2 = Number(prompt("digite o valor do lado do trinagulo"))
+let  vertice3= Number(prompt("digite o valor do lado do trinagulo"))
+
+if(vertice1 + vertice2 > vertice3){
+    alert("e um triangulo")
+}
+
+else if(vertice2 + vertice3 > vertice1){
+    alert("e um triangulo")
+}
+
+else if(vertice1 + vertice3 > vertice2){
+    alert("e um triangulo")
+}
+
