@@ -1,0 +1,8 @@
+let num1 = Number(prompt("digite um numero"))
+if(num1 % 2==0){
+    alert("O numero e par")
+
+}
+else{
+    alert("o numero e impar")
+}
