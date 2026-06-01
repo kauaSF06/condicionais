@@ -1,0 +1,13 @@
+let nota1 = Number(prompt("digite a sua primeira nota"))
+let nota2 = Number(prompt("digite sua segunda nota"))
+let media = (nota1 + nota2) / 2
+
+if(media >=6){
+    alert("voce esta aprovado")
+}
+else if(media <5){
+    alert("voce esta reprovado")
+}
+else{
+    alert("voce esta de recuperação")
+}
