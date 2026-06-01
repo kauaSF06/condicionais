@@ -1,0 +1,7 @@
+let idade = Number(prompt("digite a sua idade"))
+
+if(idade >=18){
+    alert("bem vindo ao projeto")
+}else{
+    alert("acesso negado")
+}
